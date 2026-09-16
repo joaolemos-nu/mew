@@ -2,7 +2,7 @@
 name: "gotcha-non-ascii-cafe"
 type: gotcha
 criticality: normal
-scope: [finn]
+scope: [acme]
 keywords: [é, café, compilação]
 provenance:
   - kind: code

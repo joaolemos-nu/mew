@@ -9,7 +9,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [
             {
@@ -33,7 +33,7 @@ describe "Mew::Schema" do
           "name" => "capture-save-error",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
         }
@@ -46,7 +46,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "not-a-real-type",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
@@ -60,7 +60,7 @@ describe "Mew::Schema" do
           "name" => "",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
@@ -73,7 +73,7 @@ describe "Mew::Schema" do
         candidate = {
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
@@ -88,7 +88,7 @@ describe "Mew::Schema" do
           "name" => long_name,
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
@@ -102,7 +102,7 @@ describe "Mew::Schema" do
           "name" => "test/note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
@@ -116,7 +116,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "invalid",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
@@ -143,7 +143,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => "finn",
+          "scope" => "acme",
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
@@ -157,7 +157,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => [],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01"
@@ -171,7 +171,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01",
@@ -186,7 +186,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "invalid-date"
@@ -200,7 +200,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }]
         }
@@ -213,7 +213,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "created" => "2026-01-01"
         }
@@ -226,7 +226,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "ref" => "test-ref" }],
           "created" => "2026-01-01"
@@ -240,7 +240,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "doc" }],
           "created" => "2026-01-01"
@@ -254,7 +254,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "invalid-kind", "ref" => "test-ref" }],
           "created" => "2026-01-01"
@@ -268,7 +268,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "doc", "ref" => "test-ref" }],
           "created" => "2026-01-01"
@@ -282,7 +282,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "sdd", "ref" => "test-ref" }],
           "created" => "2026-01-01"
@@ -298,7 +298,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-1-1"
@@ -313,7 +313,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01",
@@ -328,7 +328,7 @@ describe "Mew::Schema" do
           "name" => "test-note",
           "type" => "finding",
           "criticality" => "normal",
-          "scope" => ["finn"],
+          "scope" => ["acme"],
           "keywords" => ["test"],
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
           "created" => "2026-01-01",
@@ -343,7 +343,7 @@ describe "Mew::Schema" do
       def base_candidate
         {
           "name" => "test-note", "type" => "finding", "criticality" => "normal",
-          "scope" => ["finn"], "keywords" => ["test"], "created" => "2026-01-01",
+          "scope" => ["acme"], "keywords" => ["test"], "created" => "2026-01-01",
           "provenance" => [{ "kind" => "session", "ref" => "cli-curated" }],
         }
       end

@@ -7,12 +7,12 @@ describe Mew::Frontmatter do
         "name" => "finding-cache-flush",
         "type" => "finding",
         "criticality" => "normal",
-        "scope" => ["finn"],
-        "keywords" => ["cache", "flush", "bdc"],
+        "scope" => ["acme"],
+        "keywords" => ["cache", "flush", "gizmo"],
         "provenance" => [
           {
             "kind" => "doc",
-            "ref" => "reference-bdc-cache-flush",
+            "ref" => "reference-gizmo-cache-flush",
             "retrieved" => "2026-01-01"
           }
         ],
@@ -33,7 +33,7 @@ describe Mew::Frontmatter do
         "name" => "gotcha-non-ascii-cafe",
         "type" => "gotcha",
         "criticality" => "normal",
-        "scope" => ["finn"],
+        "scope" => ["acme"],
         "keywords" => ["é", "café", "compilação"],
         "provenance" => [
           {
@@ -61,7 +61,7 @@ describe Mew::Frontmatter do
         "name" => "decision-quoted-scalar",
         "type" => "decision",
         "criticality" => "normal",
-        "scope" => ["finn"],
+        "scope" => ["acme"],
         "keywords" => ["consumer lag", "billing"],
         "provenance" => [
           {
@@ -96,12 +96,12 @@ describe Mew::Frontmatter do
         "name" => "finding-cache-flush",
         "type" => "finding",
         "criticality" => "normal",
-        "scope" => ["finn"],
-        "keywords" => ["cache", "flush", "bdc"],
+        "scope" => ["acme"],
+        "keywords" => ["cache", "flush", "gizmo"],
         "provenance" => [
           {
             "kind" => "doc",
-            "ref" => "reference-bdc-cache-flush",
+            "ref" => "reference-gizmo-cache-flush",
             "retrieved" => "2026-01-01"
           }
         ],
@@ -140,7 +140,7 @@ describe Mew::Frontmatter do
         "name" => "gotcha-cafe",
         "type" => "gotcha",
         "criticality" => "normal",
-        "scope" => ["finn"],
+        "scope" => ["acme"],
         "keywords" => ["café"],
         "provenance" => [{"kind" => "code", "ref" => "test:1"}],
         "hits" => 0,

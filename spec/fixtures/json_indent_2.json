@@ -3,17 +3,17 @@
   "type": "finding",
   "criticality": "normal",
   "scope": [
-    "finn"
+    "acme"
   ],
   "keywords": [
     "cache",
     "flush",
-    "bdc"
+    "gizmo"
   ],
   "provenance": [
     {
       "kind": "doc",
-      "ref": "reference-bdc-cache-flush",
+      "ref": "reference-gizmo-cache-flush",
       "retrieved": "2026-01-01"
     }
   ],
