@@ -1,0 +1,7 @@
+[
+    {
+        "path": "mew.gemspec",
+        "policy": "EmailPolicy",
+        "justification": "Personal author email João explicitly chose for this now-public personal repo, not a secret"
+    }
+]

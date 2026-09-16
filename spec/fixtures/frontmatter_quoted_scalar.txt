@@ -1,0 +1,13 @@
+---
+name: "gotcha-non-ascii-cafe"
+type: gotcha
+criticality: normal
+scope: [finn]
+keywords: [é, café, compilação]
+provenance:
+  - kind: code
+    ref: "bin/mb.py:1"
+hits: 0
+last_used: ""
+created: "2026-01-01"
+---

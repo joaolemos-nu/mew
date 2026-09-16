@@ -1,0 +1,23 @@
+{
+ "name": "finding-cache-flush",
+ "type": "finding",
+ "criticality": "normal",
+ "scope": [
+  "finn"
+ ],
+ "keywords": [
+  "cache",
+  "flush",
+  "bdc"
+ ],
+ "provenance": [
+  {
+   "kind": "doc",
+   "ref": "reference-bdc-cache-flush",
+   "retrieved": "2026-01-01"
+  }
+ ],
+ "hits": 3,
+ "last_used": "2026-01-05",
+ "created": "2026-01-01"
+}
